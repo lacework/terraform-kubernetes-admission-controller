@@ -6,5 +6,6 @@ terraform {
       source  = "lacework/lacework"
       version = "~> 0.3"
     }
+    kubernetes = ">= 2.0.0"
   }
 }
