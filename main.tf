@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 resource "kubernetes_deployment" "lacework_admission_controller" {
   metadata {
     name      = var.admission_controller_name
@@ -332,3 +333,6 @@ resource "kubernetes_service" "lacework_proxy_scanner_service" {
     }
   }
 }
+=======
+# Your Terraform code goes here :)
+>>>>>>> 0843f98 (feat: shape our TF module scaffolding (#1))

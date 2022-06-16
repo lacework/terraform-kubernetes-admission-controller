@@ -1,5 +1,6 @@
 <a href="https://lacework.com"><img src="https://techally-content.s3-us-west-1.amazonaws.com/public-content/lacework_logo_full.png" width="600"></a>
 
+<<<<<<< HEAD
 # terraform-admission-controller
 A Terraform Module to create a Deployment for deploying the Lacework Admission Controller (and optionally Proxy Scanner) in a Kubernetes cluster.
 
@@ -42,10 +43,19 @@ The `main.tf` file will configure a Kubernetes Deployment which will then be use
 | [tls_private_key.admission](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/private_key) | resource |
 | [tls_cert_request.admission](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/cert_request) | resource |
 | [tls_locally_signed_cert.admission](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/locally_signed_cert) | resource |
+=======
+# terraform-<PROVIDER>-<NAME>
+
+[![GitHub release](https://img.shields.io/github/release/lacework/terraform-<PROVIDER>-<NAME>.svg)](https://github.com/lacework/terraform-<PROVIDER>-<NAME>/releases/)
+[![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/lacework/terraform-modules%2Ftest-compatibility?type=cf-1&key=eyJhbGciOiJIUzI1NiJ9.NWVmNTAxOGU4Y2FjOGQzYTkxYjg3ZDEx.RJ3DEzWmBXrJX7m38iExJ_ntGv4_Ip8VTa-an8gBwBo)]( https://g.codefresh.io/pipelines/edit/new/builds?id=607e25e6728f5a6fba30431b&pipeline=test-compatibility&projects=terraform-modules&projectId=607db54b728f5a5f8930405d)
+
+A Terraform Module to __________________________ with Lacework.
+>>>>>>> 0843f98 (feat: shape our TF module scaffolding (#1))
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
+<<<<<<< HEAD
 |------|-------------|------|---------|:--------:|
 | [revision_history_limit](#revision\_history\_limit) | The number of history revisions to keep | `number` | `10` | no |
 | [service_account_name](#service\_account\_name) | The name of the Kubernetes ServiceAccount to create for pods | `string` | `lacework-admission-controller` | no |
@@ -83,3 +93,11 @@ The `main.tf` file will configure a Kubernetes Deployment which will then be use
 | [static_cache_location](#static\_cache\_location) | Location of the proxy scanner's cache file | `string` | `/opt/lacework/cache` | no |
 | [scan_public_registries](#scan\_public\_registries) | Set to true if you want to scan images from registries that are publicly accessible | `bool` | `false` | no |
 | [registries](#registries) | A list of registries to apply to proxy scanner. See proxy scanner configuration documentation for details | `list(any)` | | yes |
+=======
+|------|-------------|------|---------|----------|
+
+## Outputs
+
+| Name | Description |
+|------|-------------|
+>>>>>>> 0843f98 (feat: shape our TF module scaffolding (#1))

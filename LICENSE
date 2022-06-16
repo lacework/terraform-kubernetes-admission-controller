@@ -1,6 +1,10 @@
 MIT License
 
+<<<<<<< HEAD
 Copyright (c) 2022 Lacework Engineering
+=======
+Copyright (c) 2021 Lacework, Inc.
+>>>>>>> 0843f98 (feat: shape our TF module scaffolding (#1))
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

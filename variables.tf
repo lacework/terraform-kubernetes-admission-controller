@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #general parameters
 variable "revision_history_limit" {
   type        = number
@@ -214,3 +215,10 @@ variable "registries" {
   type        = list(any)
   description = "A list of registries to apply to proxy scanner. See proxy scanner configuration documentation for details."
 }
+=======
+#variable "example" {
+#  type        = string
+#  default     = ""
+#  description = "This is just an example of a variable"
+#}
+>>>>>>> 0843f98 (feat: shape our TF module scaffolding (#1))
