@@ -23,6 +23,13 @@ locals {
         defaultRegistry : var.default_registry
         blockOnError : var.block_on_error
       }
+      proxy-scanner : {
+        certs : {
+          skipCert : var.skip_cert
+          serverCertificate : var.skip_cert ? null : (var.use_self_signed_certs ? tls_locally_signed_cert.admission[0].cert_pem : file(var.ca_cert))
+          serverKey : var.skip_cert ? null : (var.use_self_signed_certs ? tls_private_key.admission[0].private_key_pem : file(var.ca_cert))
+        }
+      }
     })
   }
   ps_config = {

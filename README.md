@@ -74,6 +74,7 @@ A Terraform Module to create a Deployment for deploying the Lacework Admission C
 | [ca_cert](#ca\_cert) | Root certificate for TLS authentication with the K8s api server. If use_self_signed_certs is false, this is required. Otherwise a self-signed cert will be created. | `string` | `""` | no |
 | [server_certificate](#server\_certificate) | Certificate for TLS authentication with the K8s api server. If use_self_signed_certs is false, this is required. Otherwise a self-signed cert will be created. | `string` | `""` | no |
 | [server_key](#server\_key) | Certificate key for TLS authentication with the K8s api server. If use_self_signed_certs is false, this is required. Otherwise a self-signed cert will be created. | `string` | `""` | no |
+| [skip_cert](#skip\_cert) | Skip encrypted communication between admission controller and proxy scanner using certificate. Default is to skip. If set to false, certificate used will be based on use_self_signed_certs setting. | `bool` | `true` | no |
 | [proxy_scanner_name](#proxy\_scanner\_name) | The name for the Lacework proxy scanner deployment | `string` | `lacework-proxy-scanner` | no |
 | [proxy_scanner_image](#proxy\_scanner\_image) | The image to use for deploying the Lacework proxy scanner | `string` | `lacework/lacework-proxy-scanner` | no |
 | [proxy_scanner_image_tag](#proxy\_scanner\_image\_tag) | The image tag to use for deploying the Lacework proxy scanner | `string` | `latest` | no |
