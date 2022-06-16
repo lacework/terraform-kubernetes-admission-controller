@@ -2,7 +2,7 @@
 
 # terraform-lacework-admission-controller
 
-[![GitHub release](https://img.shields.io/github/release/lacework/terraform-lacework-admission-controller.svg)](https://github.com/lacework/terraform-lacework-admission-controller/releases/)
+[![GitHub release](https://img.shields.io/github/release/lacework-dev/terraform-lacework-admission-controller.svg)](https://github.com/lacework-dev/terraform-lacework-admission-controller/releases/)
 [![Codefresh build status]( https://g.codefresh.io/api/badges/pipeline/lacework/terraform-modules%2Ftest-compatibility?type=cf-1&key=eyJhbGciOiJIUzI1NiJ9.NWVmNTAxOGU4Y2FjOGQzYTkxYjg3ZDEx.RJ3DEzWmBXrJX7m38iExJ_ntGv4_Ip8VTa-an8gBwBo)]( https://g.codefresh.io/pipelines/edit/new/builds?id=607e25e6728f5a6fba30431b&pipeline=test-compatibility&projects=terraform-modules&projectId=607db54b728f5a5f8930405d)
 
 A Terraform Module to create a Deployment for deploying the Lacework Admission Controller (and optionally Proxy Scanner) in a Kubernetes cluster.
