@@ -6,7 +6,7 @@
 #
 set -eou pipefail
 
-readonly project_name=terraform-<PROVIDER>-<NAME>
+readonly project_name=terraform-kubernetes-admission-controller
 
 TEST_CASES=(
   examples/default
