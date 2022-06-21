@@ -1,6 +1,6 @@
-# Default Example
+# Default Kubernetes Deployment
 
-Every Terraform module must have one or more examples.
+This example shows how to use the Terraform module to create a new Kubernetes Deployment for a Lacework Admission Controller and Proxy Scanner.
 
 ```hcl
 terraform {
