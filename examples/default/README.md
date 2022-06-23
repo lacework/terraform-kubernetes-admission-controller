@@ -1,6 +1,6 @@
 # Default Kubernetes Deployment
 
-This example shows how to use the Terraform module to create a new Kubernetes Deployment for a Lacework Admission Controller and Proxy Scanner.
+This example shows how to use the Terraform module to create new Kubernetes Deployments for a Lacework Admission Controller and a Proxy Scanner. By default, the module will create self-signed certificates for encrypted communiction between the K8s API and admission controller.
 
 ```hcl
 terraform {
