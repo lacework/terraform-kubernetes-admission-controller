@@ -1,8 +1,7 @@
 provider "kubernetes" {}
 
 module "lacework_admission_controller" {
-  source  = "lacework/admission-controller/kubernetes"
-  version = "~> 0.1"
+  source = "../../"
 
   lacework_account_name = "YourLaceworkAccount"
   proxy_scanner_token   = "_123456789abcdef123456789abcd"
