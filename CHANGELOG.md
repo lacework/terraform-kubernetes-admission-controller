@@ -1,0 +1,17 @@
+# v0.1.0
+
+## Features
+* feat: shape our TF module scaffolding (#1) (matthew zeier)([4ba72eb](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/4ba72eb357cec8d3e433964045bfd2149b832140))
+## Bug Fixes
+* fix: example should reference local module (Salim Afiune Maya)([415b100](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/415b100500c68915e64b9ef6ad3de51d677d4d4a))
+## Documentation Updates
+* docs: update README.md (Salim Afiune Maya)([ce4f705](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/ce4f70561b24bb12fed00143210107431da22385))
+## Other Changes
+* chore(scaffolding): Update pull-request-template.md to latest (Ross)([6036f5f](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/6036f5faf0dce834cfd0931f3905812a28bc5183))
+* chore(scaffolding): Add .github config (Ross)([b6086b9](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/b6086b9461b18db0b3e47b0556c1aa65d79c790d))
+* chore(scaffolding): Update scaffolding repo (Ross)([ec922a3](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/ec922a3bcfd405a380ed2903f6a388f3c1b4c8c2))
+* chore: bump required version of TF to 0.12.31 (#3) (Scott Ford)([633cf34](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/633cf3427b71dff3e36c23e975bbad44678cb341))
+* ci: sign lacework-releng commits (#4) (Salim Afiune)([212ff92](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/212ff9289199f5315e001969ce8b4c30d810b90d))
+* ci: fix finding major versions during release (#2) (Salim Afiune)([c39e4f2](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/c39e4f2469bb840375357b84759efecc8b9d1bd9))
+---
+
