@@ -1,3 +1,9 @@
+locals {
+  version_file   = "${abspath(path.module)}/VERSION"
+  module_name    = basename(abspath(path.module))
+  module_version = fileexists(local.version_file) ? file(local.version_file) : ""
+}
+
 resource "kubernetes_deployment" "lacework_admission_controller" {
   metadata {
     name      = var.admission_controller_name
@@ -331,4 +337,9 @@ resource "kubernetes_service" "lacework_proxy_scanner_service" {
       app = var.proxy_scanner_name
     }
   }
+}
+
+data "lacework_metric_module" "lwmetrics" {
+  name    = local.module_name
+  version = local.module_version
 }
