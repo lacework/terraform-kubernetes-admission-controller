@@ -1,3 +1,11 @@
+# v0.1.1
+
+## Documentation Updates
+* docs(readme): add terraform docs automation (#7) (Timothy MacDonald)([c4e03b2](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/c4e03b2ab99693a66352cf9d57f1b64b938b48d2))
+## Other Changes
+* chore: add lacework_metric_module datasource (#8) (Darren)([e7e8b23](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/e7e8b2319762f4262a588bbab184f57d1504ef82))
+* ci: version bump to v0.1.1-dev (Lacework)([2266eea](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/2266eeaab8b2adf13e011925a457d781a5b088c3))
+---
 # v0.1.0
 
 ## Features
@@ -14,4 +22,3 @@
 * ci: sign lacework-releng commits (#4) (Salim Afiune)([212ff92](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/212ff9289199f5315e001969ce8b4c30d810b90d))
 * ci: fix finding major versions during release (#2) (Salim Afiune)([c39e4f2](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/c39e4f2469bb840375357b84759efecc8b9d1bd9))
 ---
-
