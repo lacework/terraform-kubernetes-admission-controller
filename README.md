@@ -13,12 +13,14 @@ A Terraform Module to create a Deployment and other resources necessary for depl
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 0.12.31 |
 | <a name="requirement_kubernetes"></a> [kubernetes](#requirement\_kubernetes) | >= 2.0.0 |
+| <a name="requirement_lacework"></a> [lacework](#requirement\_lacework) | ~> 1.18 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
 | <a name="provider_kubernetes"></a> [kubernetes](#provider\_kubernetes) | >= 2.0.0 |
+| <a name="provider_lacework"></a> [lacework](#provider\_lacework) | ~> 1.18 |
 | <a name="provider_tls"></a> [tls](#provider\_tls) | n/a |
 
 ## Modules
@@ -47,6 +49,7 @@ No modules.
 | [tls_private_key.admission](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/private_key) | resource |
 | [tls_private_key.ca](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/private_key) | resource |
 | [tls_self_signed_cert.ca](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/self_signed_cert) | resource |
+| [lacework_metric_module.lwmetrics](https://registry.terraform.io/providers/lacework/lacework/latest/docs/data-sources/metric_module) | data source |
 
 ## Inputs
 
