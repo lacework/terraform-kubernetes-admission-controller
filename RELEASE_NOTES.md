@@ -1,6 +1,7 @@
 # Release Notes
-Another day, another release. These are the release notes for the version `v0.1.2`.
+Another day, another release. These are the release notes for the version `v0.1.3`.
 
 ## Other Changes
-* chore: set local var module name (#10) (Darren)([f8c2b31](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/f8c2b31171ee64e29d617e96a9c65c6bbe57d336))
-* ci: version bump to v0.1.2-dev (Lacework)([c363e39](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/c363e3965ba6b2d37f3dc3da9c52594e803bd0b4))
+* chore(GROW-2952): add codeowners (#13) (Matt Cadorette)([786a9dd](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/786a9dd598849b8d4c340d738c5db4da3e3d3ed9))
+* ci: migrate from codefresh to github actions (#12) (Timothy MacDonald)([b844f87](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/b844f87e77f26127bc228b6f2acef75b5642de23))
+* ci: version bump to v0.1.3-dev (Lacework)([67164ed](https://github.com/lacework/terraform-kubernetes-admission-controller/commit/67164ed238806dc993385bf988cd4231f2d523aa))
